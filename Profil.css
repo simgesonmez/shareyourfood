@@ -1,0 +1,160 @@
+
+.profile-container {
+  background-color: #f0f0f0; /* Arkaplan rengi */
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #fff; /* Kart arkaplan rengi */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header {
+  margin-right: auto;
+  font-size: 24px;
+}
+
+.profile {
+  background-color: #67d695;
+  color: #396862;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile:hover {
+  background-color: aquamarine;
+}
+
+.meals-add-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.meals-container-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.meal-card-vertical {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.meal-card-vertical img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.meal-card-vertical h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.meal-card-vertical p {
+  margin-bottom: 8px;
+}
+
+.meal-card-vertical button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.meal-card-vertical button:hover {
+  background-color: #ff4c29;
+}
+
+.add-new-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.add-new-card:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.add-new-content {
+  text-align: center;
+}
+
+.add-icon {
+  display: block;
+  font-size: 24px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.add-text {
+  font-size: 14px;
+  color: #888;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.nav_header {
+  padding: 0px;
+  margin-left: 15px;
+  position: relative;
+  top: -20px;
+  font-size: 20px;
+  font-family: Tenon, 'Arial Black', sans-serif;
+  color: black;
+}

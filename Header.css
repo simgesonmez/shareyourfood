@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    position: fixed;
+   justify-content: space-between;
+   align-items: center;
+   background-color:white;
+   padding: 20px; /* padding değeri pozitif olmalıdır */
+   text-align: center;
+   width: 100%; /* Navbar'ı sayfa genişliği kadar genişletmek için */
+   z-index: 1000;  
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+    margin-left: 100px; /* İki öğe arasında bir boşluk eklemek için */
+} 
+.item a{ 
+   text-decoration: none; 
+}   
+.item_right a { 
+    text-decoration: none;  
+}
+.nav_list { 
+    display: flex; 
+    list-style-type:none; 
+    justify-content: space-between; 
+} 
+.nav_list .item button{ 
+    padding: 10px 35px;
+    margin-left: 100px; 
+    margin-right: 100px;
+    background-color:#67D695; 
+    border-radius: 20px; 
+    border:none; 
+    color: #396862; 
+    font-family: Tenon, 'Arial Black', sans-serif; 
+    cursor: pointer;
+} 
+.nav_list .item button:hover{ 
+    background-color:aquamarine;
+}
+.nav_list .item_right button{ 
+    padding: 10px 35px;
+    margin-right: 170px; 
+    background-color:#67D695;
+    border-radius: 20px; 
+    border: none; 
+    color: #396862;
+    font-family: Tenon, 'Arial Black', sans-serif; 
+    cursor: pointer; 
+    height: 20px;
+    width: 20px;
+} 
+.nav_list .item_right button:hover{ 
+    background-color:aquamarine;
+} 
+.nav_header{ 
+    padding: 0px;
+    margin-left: 15px;
+    position: relative;
+    top: -20px;
+    font-size: large;
+    font-family:  Tenon, 'Arial Black', sans-serif;
+    color:black;
+    font-size: 20px;
+}
